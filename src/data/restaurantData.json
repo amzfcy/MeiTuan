@@ -1,0 +1,91 @@
+//字段说明:
+//name: 餐馆名
+//type: 分类
+//image: 图片
+//averagePrice: 人均
+//location: 地点
+//takeout: 是否提供外卖
+//reservations: 是否可以预定
+//preferential: 是否可以优惠买单
+//preferentialInfo: 优惠信息
+//groupBuyInfo: 团购信息
+//ticketInfo: 优惠券信息
+
+[
+  {
+    "id": 1,
+    "name": "花崎尊品海鲜料理",
+    "image": "./../../images/job1.jpg",
+    "averagePrice": "389",
+    "type": "日本菜",
+    "location": "闵行区",
+    "address": "闵行区古北路1838号4栋1楼",
+    "takeout": true,
+    "reservations": true,
+    "preferential": true,
+    "discount": 0,
+    "preferentialInfo": "原价买单",
+    "groupBuyInfo": "单人午餐318元, 单人午/晚餐368元",
+    "ticketInfo": false
+  }, {
+    "id": 2,
+    "name": "重庆刘一手火锅(吴中路店)",
+    "image": "./../../images/job2.jpg",
+    "averagePrice": "94",
+    "type": "重庆火锅",
+    "location": "虹桥镇",
+    "address": "闵行区吴中路1099号吴中商务大楼3楼(近万源路)",
+    "takeout": true,
+    "reservations": false,
+    "preferential": true,
+    "discount": "满100减15",
+    "preferentialInfo": "每满100减15",
+    "groupBuyInfo": "双人餐118元,4人餐228元,6-8人餐368元",
+    "ticketInfo": "85代100元"
+  },{
+  "id": 3,
+  "name": "Alinex Bar",
+  "image": "./../../images/job2.jpg",
+  "averagePrice": "25",
+  "type": "咖啡",
+  "location": "虹桥",
+  "address": "长宁区红松东路1000号哈一顿大酒店2楼(近虹许路)",
+  "takeout": false,
+  "reservations": false,
+  "preferential": true,
+  "discount": 8.8,
+  "preferentialInfo": "8.8折",
+  "groupBuyInfo": "38元单人下午茶",
+  "ticketInfo": false
+},{
+  "id": 4,
+  "name": "宋记香辣蟹",
+  "image": "./../../images/job2.jpg",
+  "averagePrice": "96",
+  "type": "川菜",
+  "location": "虹桥",
+  "address": "长宁区虹桥路1665号水城路路口星空广场5楼B501室(地铁10号线水城路站1号口)",
+  "takeout": true,
+  "reservations": true,
+  "preferential": true,
+  "discount": 9.5,
+  "preferentialInfo": "9.5折",
+  "groupBuyInfo": "2-3人餐216元, 4-6人餐428元",
+  "ticketInfo": "91.9元代100元"
+},{
+  "id": 5,
+  "name": "椰皇",
+  "image": "./../../images/job2.jpg",
+  "averagePrice": "20",
+  "type": "甜品",
+  "location": "打浦桥",
+  "address": "卢湾区日月光中心B1",
+  "takeout": false,
+  "reservations": false,
+  "preferential": true,
+  "discount": 8.0,
+  "preferentialInfo": "8.0折",
+  "groupBuyInfo": "新地冻椰皇19元",
+  "ticketInfo": false
+}
+]
